@@ -1,6 +1,6 @@
 {
-  "name": "hello-react",
-  "version": "0.1.0",
+  "name": "react-boilerplate",
+  "version": "0.0.1",
   "private": true,
   "dependencies": {
     "@babel/core": "7.4.3",
@@ -141,6 +141,10 @@
       ]
     }
   },
+  "eslintIgnore": [
+    "/config/*",
+    "/scripts/*"
+  ],
   "browserslist": {
     "production": [
       ">0.2%",
