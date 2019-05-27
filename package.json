@@ -87,18 +87,14 @@
     "extends": [
       "react-app",
       "plugin:@typescript-eslint/recommended",
-      "prettier/@typescript-eslint",
-      "plugin:prettier/recommended",
       "airbnb"
     ],
     "rules": {
-      "react/jsx-one-expression-per-line": 0,
       "indent": 0,
       "@typescript-eslint/indent": [
         "error",
         2
       ],
-      "prettier/prettier": 0,
       "no-param-reassign": 0,
       "no-underscore-dangle": 0,
       "react/jsx-filename-extension": 0,
@@ -212,12 +208,9 @@
     "@typescript-eslint/eslint-plugin-tslint": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
     "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-import": "^2.17.3",
     "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.13.0",
-    "prettier": "^1.17.1",
     "tslint": "^5.16.0"
   }
 }
