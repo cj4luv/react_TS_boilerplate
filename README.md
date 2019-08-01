@@ -2,8 +2,6 @@ react boilerplate with typesciprt
 
 airbnb-eslint-config
 
-tslint
-
 typescript-eslint
 
 create-react-app
